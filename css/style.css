@@ -208,3 +208,79 @@ a {
   text-align: center;
   font-size: 13px;
 }
+/* Review */
+.review-area {
+  background: #f4f4f4;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  color: #444;
+}
+.review-header {
+  font-size: 2rem;
+}
+.review-header,
+.review-para {
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+}
+.main-box {
+  text-align: center;
+  padding: 3rem;
+  background: #f4f4f4;
+}
+.child-box {
+  display: flex;
+  color: #fff;
+  padding: 0 20px;
+}
+.bangladesh,
+.india,
+.japan,
+.china,
+.thailand,
+.norway,
+.srilanka,
+.switzerland,
+.maldives,
+.nepal {
+  padding: 30px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 20px 20px 20px gray;
+
+}
+.bangladesh {
+  background-image: url("../images/country/bangladesh.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.india {
+  background: url("../images/country/india.jpg") no-repeat center center/cover;
+}
+.nepal{
+  background: url("../images/country/nepal.jpg") no-repeat center center/cover;
+}
+.japan {
+  background: url('../images/country/japan.jpg') no-repeat center center/cover;
+}
+.norway {
+  background: url("../images/country/norway.jpg") no-repeat center center/cover;
+}
+.china {
+  background: url("../images/country/china.jpg") no-repeat center center/cover;
+}
+.srilanka {
+  background: url("../images/country/sirlanka.jpg") no-repeat center center/cover;
+}
+.switzerland {
+  background: url("../images/country/switzerland.jpg") no-repeat center center/cover;
+}
+.thailand {
+  background: url("../images/country/thailand.jpg") no-repeat center center/cover;
+}
+.maldives {
+  background: url("../images/country/maldive.jpg") no-repeat center center/cover;
+}
