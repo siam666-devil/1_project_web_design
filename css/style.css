@@ -77,7 +77,7 @@ a {
   border-bottom: 3px solid black;
 }
 #content-background {
-  background: #333 url('../images/photo2.jpg') no-repeat center center/cover;
+  background: #333 url('../images/photo2.jpg') ;
   height: 100vh;
   color: #fff;
 }
@@ -249,38 +249,67 @@ a {
   margin: 30px;
   border-radius: 5px;
   box-shadow: 20px 20px 20px gray;
-
 }
+/* 
+Backgeound-imeage: leaner-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url(apnar imeage);
+*/
 .bangladesh {
-  background-image: url("../images/country/bangladesh.jpg");
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)),  url("../images/country/bangladesh.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .india {
-  background: url("../images/country/india.jpg") no-repeat center center/cover;
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("../images/country/india.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .nepal{
-  background: url("../images/country/nepal.jpg") no-repeat center center/cover;
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("../images/country/nepal.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .japan {
-  background: url('../images/country/japan.jpg') no-repeat center center/cover;
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url('../images/country/japan.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .norway {
-  background: url("../images/country/norway.jpg") no-repeat center center/cover;
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("../images/country/norway.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .china {
-  background: url("../images/country/china.jpg") no-repeat center center/cover;
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("../images/country/china.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .srilanka {
-  background: url("../images/country/sirlanka.jpg") no-repeat center center/cover;
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("../images/country/sirlanka.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .switzerland {
-  background: url("../images/country/switzerland.jpg") no-repeat center center/cover;
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("../images/country/switzerland.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .thailand {
-  background: url("../images/country/thailand.jpg") no-repeat center center/cover;
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("../images/country/thailand.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .maldives {
-  background: url("../images/country/maldive.jpg") no-repeat center center/cover;
+  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("../images/country/maldive.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
